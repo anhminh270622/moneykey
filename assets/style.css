@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 25vh;
+}
+
+.enjoy {
+    font-size: 100px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.closed {
+    display: none;
+}
+
+.open {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+button {
+    margin: 10px 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: 3px solid rgb(222, 52, 52);
+}
+.minh{
+    display: flex;
+}
